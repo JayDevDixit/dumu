@@ -1,0 +1,21 @@
+:root{
+    --false: #E81B1B;
+    --true:#009068;
+}
+#switch{
+    background-color: gray;
+}
+#btn{
+    height: 2rem;
+    width: 3.5rem;
+    cursor: pointer;
+}
+#btn::before{
+    content: '';
+    display: block;
+    height: 1.9em;
+    width: 1.9em;
+    background-color: red;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
