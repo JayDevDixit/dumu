@@ -15,5 +15,5 @@ btn.addEventListener('click',()=>{
         s.style.justifyContent = 'right'
     }
   checked = !checked;  
-  console.log();
+  console.log("hello");
 })
